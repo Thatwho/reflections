@@ -3,6 +3,7 @@ I initialize or create a new Git repository, so that I can trace back every chan
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+It seems like a buffer for those two area, it contain every adjust I had made to work directory, so I can check them before commiting.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
