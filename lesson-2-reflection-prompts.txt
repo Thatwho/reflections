@@ -3,10 +3,12 @@ I initialize or create a new Git repository, so that I can trace back every chan
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
-It seems like a buffer for those two area, it contain every adjust I had made to work directory, so I can check them before commiting.
+It seems like a buffer for those two area, it contain every adjust I had made to work directory, so I can check them before commiting.first
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+first use command "git diff" to find out the change I had made, then use "git add filename" to choose what adjust I want to be commit and use "git diff --staged" 
+to check the difference between staging area and the most recent commit, afterword, use "git commit" to commit the change, finally use "git reset --hard" to discard any change tha t I don't want to save.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
