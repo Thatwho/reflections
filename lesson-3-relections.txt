@@ -7,6 +7,13 @@ It's more controllable, and I would be more confident to each commit.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
-forks are used in situation when I try to cooperate with others and keep the original file from GitHUb.
+forks are used in situation when I try to cooperate with others and keep the 
+original file from GitHUb. 
 clone are used to cope code and information from internet to my own machine
 branch are used to text new features without affect old version.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+Since I am cooperating with others, the file may be changed any time, with the copy 
+I can eaily find difference among three version of the file so I can adjust it before 
+commit.
